@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from profilefurry import views
 #home view prueba
-from django.config import settings
+from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
